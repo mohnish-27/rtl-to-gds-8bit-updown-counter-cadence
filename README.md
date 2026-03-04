@@ -20,7 +20,7 @@ The design is implemented from:
 
 ---
 
-# About the 8-Bit Counter
+## About the 8-Bit Counter
 
 The design implements a synchronous 8-bit binary up-counter that:
 
@@ -32,7 +32,7 @@ Supports reset functionality
 
 Demonstrates sequential digital design principles
 
-## Key Design Concepts
+### Key Design Concepts
 
 D Flip-Flop based register implementation
 
@@ -48,7 +48,7 @@ Timing constraints and analysis
 
 ---
 
-# Folder Structure
+## Folder Structure
 
 ```text
 ├── rtl/
@@ -72,8 +72,8 @@ Timing constraints and analysis
 └── README.md
 ```
 ---
-# Detailed Design Flow
-## 1️⃣ RTL Design
+## Detailed Design Flow
+### 1️⃣ RTL Design
 
 File: counter.v
 
@@ -87,7 +87,7 @@ Designed for ASIC synthesis compatibility
 
 ---
 
-## 2️⃣ Functional Verification
+### 2️⃣ Functional Verification
 
 File: counter_test.v
 
@@ -105,7 +105,7 @@ Waveform validation performed in Incisive
 
 ---
 
-## 3️⃣ Timing Constraints
+### 3️⃣ Timing Constraints
 
 File: constraints_sdc.sdc
 
@@ -129,7 +129,7 @@ STA-driven synthesis
 
 ---
 
-## 4️⃣ Logic Synthesis
+### 4️⃣ Logic Synthesis
 
 Performed in Cadence Genus
 
@@ -155,7 +155,7 @@ Slack analysis
 
 ---
 
-## 5️⃣ Physical Design Flow
+### 5️⃣ Physical Design Flow
 
 Implemented in Cadence Innovus
 
@@ -185,7 +185,7 @@ GDSII generation
 
 ---
 
-## 7️⃣ Final Layout & GDS
+### 7️⃣ Final Layout & GDS
 
 File: counter.gds
 
@@ -197,7 +197,7 @@ Fabrication-ready design database
 
 ---
 
-# Concepts Learned & Demonstrated
+## Concepts Learned & Demonstrated
 
 This project strengthened expertise in:
 
@@ -223,61 +223,61 @@ Design closure techniques
 
 ---
 
-# Applications of 8-Bit Counter
+## Applications of 8-Bit Counter
 
 Although simple, counters are fundamental building blocks in digital systems.
 
 Practical Applications:
 
-⏱ Digital timers and clocks
+1. Digital timers and clocks
 
-📊 Event counting systems
+2. Event counting systems
 
-🔄 Frequency division circuits
+3. Frequency division circuits
 
-📡 Communication protocol timing control
+4. Communication protocol timing control
 
-🧠 Control units in processors
+5. Control units in processors
 
-🔢 Address generation in memory systems
+6. Address generation in memory systems
 
-⏳ Delay generation circuits
+7. Delay generation circuits
 
-🖥 Embedded systems and microcontrollers
+8. Embedded systems and microcontrollers
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 To extend this project further and increase complexity:
 
-## Design Enhancements
+### Design Enhancements
 
-➕ Add Enable signal
+1. Add Enable signal
 
-🔁 Add Up/Down counting mode
+2. Add Up/Down counting mode
 
-📥 Add Parallel load feature
+3. Add Parallel load feature
 
-⏹ Add terminal count output
+4. Add terminal count output
 
-🔢 Parameterize bit-width (N-bit counter)
+5. Parameterize bit-width (N-bit counter)
 
-## ASIC Flow Enhancements
+### ASIC Flow Enhancements
 
-📉 Perform power optimization techniques
+1. Perform power optimization techniques
 
-📈 Multi-corner multi-mode (MCMM) analysis
+2. Multi-corner multi-mode (MCMM) analysis
 
-⚡ Add clock gating for power reduction
+3. Add clock gating for power reduction
 
-🧪 Add formal verification
+4. Add formal verification
 
-🧩 Integrate into a small SoC block
+5. Integrate into a small SoC block
 
 ---
 
-# Engineering Challenges & Solutions
+## Engineering Challenges & Solutions
 
 Timing violations after initial placement
 
@@ -299,7 +299,7 @@ Timing-driven routing optimization
 
 ---
 
-# Project Impact
+## Project Impact
 
 This project demonstrates hands-on experience with:
 
